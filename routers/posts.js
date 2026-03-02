@@ -45,4 +45,15 @@ router.get("/", (req, res) => {
   res.json(responseData);
 });
 
+// Show
+router.get("/:id", (req, res) => {
+  const postId = req.params.id;
+  const responseData = {
+    message: `Post ${postId} detail content`,
+    success: true,
+  };
+
+  res.json(responseData);
+});
+
 module.exports = router;
