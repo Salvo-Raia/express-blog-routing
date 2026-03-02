@@ -66,4 +66,15 @@ router.post("/", (req, res) => {
   res.json(responseData);
 });
 
+// Update
+router.put("/:id", (req, res) => {
+  const postId = req.params.id;
+  const responseData = {
+    result: `Post ${postId} Update`,
+    success: true,
+  };
+
+  res.json(responseData);
+});
+
 module.exports = router;
