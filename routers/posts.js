@@ -88,4 +88,15 @@ router.patch("/:id", (req, res) => {
   res.json(responseData);
 });
 
+// Destroy
+router.delete("/:id", (req, res) => {
+  const postId = req.params.id;
+  const responseData = {
+    result: `Post ${postId} delete`,
+    success: true,
+  };
+
+  res.json(responseData);
+});
+
 module.exports = router;
