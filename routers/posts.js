@@ -49,7 +49,17 @@ router.get("/", (req, res) => {
 router.get("/:id", (req, res) => {
   const postId = req.params.id;
   const responseData = {
-    message: `Post ${postId} detail content`,
+    result: `Post ${postId} detail content`,
+    success: true,
+  };
+
+  res.json(responseData);
+});
+
+// Store
+router.post("/", (req, res) => {
+  const responseData = {
+    result: `Post Creation`,
     success: true,
   };
 
