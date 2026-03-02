@@ -77,4 +77,15 @@ router.put("/:id", (req, res) => {
   res.json(responseData);
 });
 
+// Modify
+router.patch("/:id", (req, res) => {
+  const postId = req.params.id;
+  const responseData = {
+    result: `Post ${postId} partial update`,
+    success: true,
+  };
+
+  res.json(responseData);
+});
+
 module.exports = router;
