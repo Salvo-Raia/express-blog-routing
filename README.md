@@ -8,7 +8,7 @@ Extend the personal blog backend by introducing modular routing with Express. Cr
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| express-blog-routing | Express Blog Routing | Exercise | Express Router, REST conventions & CRUD operations | 44/50 |
+| express-blog-routing | Express Blog Routing | Exercise | Express Router & CRUD operations | 44/50 |
 
 ## Assignment
 
