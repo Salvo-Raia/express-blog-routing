@@ -49,7 +49,6 @@ It will be needed in future exercises and can also be used to experiment with th
 Try to implement the following additional improvements.
 
 - Modify the Index route to return the complete list of posts in JSON format instead of a plain text message.
-
 - Modify the Show route to retrieve and return a single post in JSON format, using its ID.
 
 ## Technologies
