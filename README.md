@@ -8,7 +8,7 @@ Extend the personal blog backend by introducing modular routing with Express. Cr
 
 | Repository | Project | Category | Main Focus | Exercise |
 |:--|:--|:--|:--|:--|
-| express-blog-routing | Express Blog Routing | Exercise | Express Router & CRUD operations | 44/50 |
+| express-blog-routing | Express Blog Routing | Exercise | Express Router, CRUD operations | 44/50 |
 
 ## Assignment
 
@@ -34,7 +34,7 @@ For this exercise, each route must return a text message confirming the operatio
 
 #### Milestone 3: Register the router
 
-Register the posts router inside `app.js`, using `posts/` as its route prefix.
+Register the posts router inside `app.js`, using `/posts` as its route prefix.
 
 All posts endpoints must therefore be accessible through the `/posts` path.
 
