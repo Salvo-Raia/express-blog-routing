@@ -14,13 +14,13 @@ Extend the personal blog backend by introducing modular routing with Express. Cr
 
 Create a dedicated routing file for the posts resource and implement the main CRUD operations.
 
-#### Milestone 1: Create the Posts Router
+#### Milestone 1: Create the posts router
 
 Create a `routers/posts.js` file to contain all routes related to the posts resource.
 
-#### Milestone 2: Implement CRUD Operations
+#### Milestone 2: Implement CRUD operations
 
-Create the routes for the five main operations, following REST conventions:
+Create the routes for the five main operations, following REST conventions.
 
 | Operation | HTTP Method | Route | Expected Response |
 |:--|:--|:--|:--|
@@ -32,19 +32,21 @@ Create the routes for the five main operations, following REST conventions:
 
 For this exercise, each route must return a text message confirming the operation the server is expected to perform.
 
-#### Milestone 3: Register the Router
+#### Milestone 3: Register the router
 
 Register the posts router inside `app.js`, using `posts/` as its route prefix.
 
 All posts endpoints must therefore be accessible through the `/posts` path.
 
-#### Milestone 4: Keep the Posts Array
+#### Milestone 4: Keep the posts array
 
 Save the provided posts array somewhere in the project.
 
 It will be needed in future exercises and can also be used to experiment with the optional bonus tasks.
 
 #### Bonus challenge
+
+Try to implement the following additional improvements.
 
 - Modify the Index route to return the complete list of posts in JSON format instead of a plain text message.
 
